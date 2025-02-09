@@ -47,8 +47,8 @@ model = load_model("mood.h5")
 mood_categories = ["Angry", "Disgusted", "Fearful", "Happy", "Neutral", "Sad", "Surprised"]
 
 # Spotify API credentials (replace with your actual credentials)
-SPOTIPY_CLIENT_ID = "110f25208b2f47c38074aed526c2e51f"
-SPOTIPY_CLIENT_SECRET = "8567e6b6b3db428da2e607bc3e22253a"
+SPOTIPY_CLIENT_ID = "Your Spotify client api key"
+SPOTIPY_CLIENT_SECRET = "Your spotify secrete api key"
 
 # Authenticate with Spotify
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID,client_secret=SPOTIPY_CLIENT_SECRET))
